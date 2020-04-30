@@ -1,1 +1,1 @@
-
+TypeScript Bot for Pokemon Showdown
