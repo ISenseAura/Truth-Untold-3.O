@@ -35,6 +35,7 @@ function attack(by : Player, on : Player, room : Room) {
     if(!Storage.databases.battles[attacker.id]) Storage.databases.battles[attacker.id] = {};
     Storage.databases.battles[attacker.id].exp += attacker.hp/1.5;
     room.say(attacker.name + " recieved " + (Math.trunc(attacker.hp/1.5)).toString() + " exp");
+    Storage.exportDatabase("battles")
   return;
   }
   
