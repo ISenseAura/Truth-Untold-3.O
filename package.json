@@ -15,7 +15,7 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "websocket": "^1.0.30",
     "events": "^3.1.0"
   } 
